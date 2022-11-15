@@ -4,7 +4,7 @@ terraform {
     storage_account_name = "ibinderstorage"
     container_name       = "tfstate"
     key                  = "terraformgithubexample.tfstate"
-    access_key = "pBvukWdGOxj+l2XCYCmda4v8Uc44VBYupG1y6CWOmifrCqcPhuNOd3vJEAmi/okMdVa+D5BGbvr/+ASt9nDNgQ=="
+    access_key           = "pBvukWdGOxj+l2XCYCmda4v8Uc44VBYupG1y6CWOmifrCqcPhuNOd3vJEAmi/okMdVa+D5BGbvr/+ASt9nDNgQ=="
   }
 }
 
