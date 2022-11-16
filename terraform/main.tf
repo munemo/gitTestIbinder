@@ -16,6 +16,8 @@ provider "azurerm" {
   use_msi = true
 }
 
+data "azurerm_client_config" "current" {}
+
 resource "azurerm_key_vault" "keyvault" {
   name                            = "ibinder-key-vault"
   location                        = "northeurope"
